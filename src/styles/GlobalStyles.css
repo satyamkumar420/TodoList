@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primaryPurple: #5acbf7;
+	--black-1: #646681;
+	--black-2: #e6dede;
+	--bg-1: #161620;
+	--bg-2: #16171d;
+	--bg-3: #1f2033;
+	--gray-1: rgb(21, 20, 35);
+	--gray-2: #181e2b;
+	--black: rgb(9, 11, 22);
+	--white: #1f2033;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-color: var(--bg-1);
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+input,
+select,
+option {
+	color: #ffff
+}
